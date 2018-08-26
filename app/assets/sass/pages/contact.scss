@@ -1,0 +1,16 @@
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    .title__contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+}
+
+.socialMediaLinksContact {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+}

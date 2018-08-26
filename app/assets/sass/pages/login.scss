@@ -1,0 +1,63 @@
+$input-width: 100%;
+.containerLogin{
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    .loginForm{
+        width: 100%;
+        margin-top: 50px;
+    }
+    div{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        label{
+            display: block;
+            margin: 0 auto;
+            width: $input-width;
+            max-width: 300px;
+            font-size: 1.5em;
+            background-color: $blue-3;
+            color: $white;
+            text-align: left;
+            text-transform: uppercase;
+        }
+
+        input{
+            display: block;
+            margin: 0 auto;
+            width: calc(100% - 4px);
+            max-width: 296px;
+            height: 25px;
+            margin-top: 2px;
+            font-family: "Montserrat";
+        }
+        a{
+            text-align: center;
+            display: inline-block;
+            width: 50%;
+            max-width: 130px;
+            margin: 0 auto;
+            margin-top: 20px;
+            text-transform: uppercase;
+        }
+
+        input::-webkit-input-placeholder{
+    	font-family:'Montserrat';
+        }
+
+        input::-moz-placeholder{
+            font-family:'Montserrat';
+        }
+
+        input:-ms-input-placeholder{
+        	font-family:'Montserrat';
+        }
+
+        input::placeholder{
+	        font-family:'Montserrat';
+        }
+    }
+}
+
+

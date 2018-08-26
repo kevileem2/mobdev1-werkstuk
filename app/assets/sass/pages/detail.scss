@@ -1,0 +1,17 @@
+main
+{
+    img{
+        width: 100%;
+        background-color: black;
+        margin-bottom: 15px;
+    }
+
+    .profileBtns{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        a{
+            width: 50%;
+        }
+    }
+}

@@ -1,0 +1,224 @@
+
+.kaushan-font{
+  font-family: 'Kaushan Script';
+}
+.montserrat-font{
+  font-family: 'Montserrat';
+  .italic{
+    font-style: italic;
+  }
+  .bold{
+    font-weight: bold;
+  } 
+}
+.containerColors{
+  max-width: 250px;
+}
+
+.color{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+.color-1{
+  background-color: $black;
+  @extend .color;
+}
+.color-2{
+  background-color: $dark-grey;
+  @extend .color;
+}
+.color-3{
+  background-color: $grey;
+  @extend .color;
+}
+.color-4{
+  background-color: $red;
+  @extend .color;
+}
+.color-5{
+  background-color: $green;
+  @extend .color;
+}
+.color-6{
+  background-color: $blue-1;
+  @extend .color;
+}
+.color-7{
+  background-color: $blue-2;
+  @extend .color;
+}
+.color-8{
+  background-color: $blue-3;
+  @extend .color;
+}
+.color-9{
+  background-color: $blue-4;
+  @extend .color;
+}
+.color-10{
+  background-color: $white;
+  @extend .color;
+}
+
+
+$input-width: 220px;
+.containerLogin{
+    form{
+        display: block;
+        margin-top: 50px;
+    }
+    div{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        label{
+            display: block;
+            width: $input-width;
+            max-width: 100%;
+            background-color: $blue-3;
+            color: $white;
+        }
+        input{
+            display: block;
+            width: 216px;
+            max-width: 100%;
+            margin-top: 2px;
+            font-family: "Montserrat";
+        }
+
+        input::-webkit-input-placeholder{
+    	font-family:'Montserrat';
+        }
+
+        input::-moz-placeholder{
+            font-family:'Montserrat';
+        }
+
+        input:-ms-input-placeholder{
+        	font-family:'Montserrat';
+        }
+
+        input::placeholder{
+	        font-family:'Montserrat';
+        }
+    }
+}
+    .containerUsername{
+        display: block;
+    }
+    .containerPassword{
+        display: block;
+    }
+
+
+    $screen-width:400px;
+    .blogpostContainer{
+        width: $screen-width;
+        max-width: 100%;
+        background-color: $blue-4;
+        padding-bottom: 15px;
+
+        h1{
+            color: $blue-2;
+            font-size: 2em;
+            margin-left: 20px;
+        }
+        h3{
+            color: $blue-1;
+            font-size: 0.9em;
+            font-family: 'Montserrat';
+            margin-left: 20px;
+            margin-top: -30px;
+        }
+        p{
+            max-width: 100%;
+            width: $screen-width - 40px;
+            display: block;
+            margin: 0 auto;
+            text-align: left;
+        }
+        
+        hr{
+            border: 2px solid $white;
+            margin-top: 3px;
+            margin-bottom: 10px;
+            @extend p;
+        }
+
+        .author{
+            margin-left: 35px;
+            margin-top: 10px;
+            font-size: 0.9em;
+            padding-left: 5px;
+            border-left: 2px solid $blue-2;
+        }
+
+        form{
+            margin-left: 20px;
+            margin-top: 15px;
+
+        }
+        textarea{
+            font-family: 'Montserrat';
+            width: calc(100% - 40px);
+            resize: none;
+            border-radius: 10px;
+            padding-top: 5px;
+        
+        }
+
+        .lg-btn{
+            margin-top: 10px;
+        }
+
+        input::-webkit-input-placeholder{
+            font-family:'Montserrat';
+            }
+    
+            input::-moz-placeholder{
+                font-family:'Montserrat';
+            }
+    
+            input:-ms-input-placeholder{
+                font-family:'Montserrat';
+            }
+    
+            input::placeholder{
+                font-family:'Montserrat';
+            }
+    }
+.navContainer{
+    width: $screen-width;
+    max-width: 100%;
+    nav{
+        a{
+            width: 20px;
+            img{
+                width: 100%;
+            }
+        }
+
+        ul{
+            display: block;
+            background-color: $blue-4;
+            padding: 0;
+            list-style-type: none;
+            hr{
+                border: 2px solid $white;
+            }
+            li{
+                max-width: 100%;
+                text-align: left;
+                padding-left: 30px;
+                a{
+                    text-decoration: none;
+                    display: block;
+                    color: $blue-2;
+                    font-size: 2em;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

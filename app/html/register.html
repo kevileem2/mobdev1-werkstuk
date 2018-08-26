@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Register</title>
+  <link rel="stylesheet" href="..\assets\css\main.css">
+</head>
+<body>
+    <div id="navigation">
+        <nav>
+          <div class="cross">
+              <a href="#" ><img src="../assets/images/icons/cross.png" alt=""></a>
+          </div>
+          <div class="clearfix"></div>         
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <hr>
+                <li><a href="../html/blog.html">BLOG</a></li>
+                <hr>
+                <li><a class="profileBtnNav" href="../html/profile.html">PROFILE</a></li>
+                <hr>
+                <li><a href="contact.html">CONTACT</a></li>    
+            </ul>
+        </nav>
+    </div>
+  <header>
+        <div class="logo"><a href="../index.html"><img src="../assets/images/icons/logo.png" alt=""></a></div>
+        <div class="search"><img src="../assets/images/icons/search.png" alt=""></div>
+        <div class="hamburger"><img src="../assets/images/icons/hamburger.png" alt=""></div>
+  </header>
+
+  <main>
+    <div id="container">
+        <h1>Register</h1>
+        <form action="">
+            <div class="registerInput">
+                <input type="text" placeholder="NAME" id='surname'>
+                <span class="error" id="error__surname"></span>
+                <input type="text"placeholder="FIRSTNAME" id='firstname'>
+                <span class="error" id="error__firstname"></span>
+                <input type="text" placeholder="EMAIL" id='email'>
+                <span class="error" id="error__email"></span>
+                <input type="text" placeholder="STUDENT NUMBER" id='studentnr'>
+                <span class="error" id="error__studentnr"></span>
+                <input type="text" placeholder="DAY OF BIRTH (DD/MM/YYYY)" id='dayofbirth'>
+                <span class="error" id="error__dayofbirth"></span>
+                <input type="password" placeholder="PASSWORD" id='password'>
+                <span class="error" id="error__password"></span>
+                <input type="password" placeholder="REPEAT PASS" id='password-repeat'>
+                <span class="error" id="error__password-repeat"></span>
+            </div>
+            <div class="registerBtn">
+                <a href="#" class="lg-btn" id="registerBtn">Register</a>
+            </div>
+        </form>
+    </div>
+  </main>
+
+  <footer>
+        <div class="footerContainer">
+          <div class="userControls">
+            <a href="profile.html" class="profile-btn"><i class="fa fa-user fa-3x" aria-hidden="true"></i></a>
+            <a href="project.html" class="addWork-btn"><i class="fa fa-plus-square-o fa-3x" aria-hidden="true"></i></a>
+          </div>
+    
+          <div class="socialMediaLinks">
+            <a href="https://www.facebook.com/GrafischeendigitalemediaArteveldehogeschool/" target="_blank" class="facebook-btn"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/explore/locations/487127602/grafische-en-digitale-media-arteveldehogeschool/" target="_blank" class="instagram-btn"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/arteveldegdm" target="_blank" class="twitter-btn"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+          </div>
+      </div>
+    </footer>
+</div>
+<script src="../assets/js/main.min.js"></script>
+</body>
+</html>

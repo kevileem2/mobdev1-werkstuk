@@ -1,0 +1,44 @@
+html{
+    padding-bottom: 80px;
+}
+
+footer{
+    position: fixed;
+    display:block;
+    padding:5px 0;
+    height: 50px;
+    width: 100%;
+    left:0px;
+    bottom:0px;
+    background-color: $blue-3;
+    
+    div{
+        vertical-align: middle;
+        display: inline-block;
+        a{
+            i{
+                color: $blue-1;
+            }
+        }
+    }
+
+    .footerContainer{
+        width: 100%;
+    }
+    .userControls{
+        width: 28%;
+        padding-left: 2%;
+
+        a{
+            margin: 10px 0;
+        }
+    }
+    .socialMediaLinks{
+        width: 68%;
+        
+        text-align: right;
+        a{
+            padding-right: 2%;
+        }
+    }
+}

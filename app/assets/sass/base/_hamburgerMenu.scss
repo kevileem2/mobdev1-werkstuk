@@ -1,0 +1,51 @@
+
+
+#navigation{
+    width: 95%;
+    display: none;
+    margin: 0 auto;
+    nav{
+        margin-top: -60px;
+        width: 100%;
+        a{
+            width: 40px;
+            display: block;
+            
+            img{
+                width: 100%;
+            }
+        }
+
+        ul{
+            display: block;
+            background-color: $blue-4;
+            padding: 0;
+            list-style-type: none;
+            margin-top: 30px;
+            hr{
+                border: 2px solid $white;
+            }
+            li{
+                width: 90%;
+                text-align: left;
+                padding-left: 30px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                a{
+                    text-decoration: none;
+                    display: block;
+                    color: $blue-2;
+                    font-size: 3em;
+                    font-weight: bold;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.cross{
+    float: right;
+    margin-right: 5%;
+    margin-top: 15px;
+}

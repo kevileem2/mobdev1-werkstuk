@@ -1,0 +1,29 @@
+.btn{
+  background-color: $blue-2;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  border: 0px;
+}
+.sm-btn{
+  padding: 6px 6px;
+  @extend .btn
+}
+
+.lg-btn{
+  padding: 6px 10px;
+  @extend .btn;
+}
+
+.btn-close-nav{
+  color: $white;
+  text-decoration: none;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.containerButtons{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
